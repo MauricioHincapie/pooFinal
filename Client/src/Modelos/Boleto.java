@@ -9,6 +9,7 @@ public class Boleto {
     String Tipo;
     Funcion MiFuncion;
     Silla MiSilla;
+    Usuario MiUsuario;
 //----------------------------------------------
     public Boleto(double Valor, String Tipo) {
         this.Valor = Valor;
@@ -24,6 +25,11 @@ public class Boleto {
     public Funcion getMiFuncion() { return MiFuncion;}
 //--------------------------------------------------------
     public void setMiFuncion(Funcion MiFuncion) {this.MiFuncion= MiFuncion;}
+     //---------------------------------------------------   
+    public Usuario getMiUsuario() { return MiUsuario;}
+//--------------------------------------------------------
+    public void setMiUsuario(Usuario MiUsuario) {this.MiUsuario= MiUsuario;}
+
  //---------------------------------------------------   
     public Silla getMiSilla() { return MiSilla;}
 //--------------------------------------------------------

@@ -7,6 +7,8 @@ public class Silla {
     String _id;
     String Letra;
     int Numero;
+    Boleto MiBoleto;
+    Sala MiSala;
 //----------------------------------------------
     public Silla(String Letra, int Numero) {
         this.Letra = Letra;
@@ -18,6 +20,16 @@ public class Silla {
     public String getId() { return _id;}
 //--------------------------------------------------------
     public void setId(String _id) {this._id= _id;}
+ //---------------------------------------------------   
+    public Boleto getMiBoleto() { return MiBoleto;}
+//--------------------------------------------------------
+    public void setBoleto(Boleto MiBoleto) {this.MiBoleto = MiBoleto;}
+//---------------------------------------------------   
+    public Sala getMiSala(){ return MiSala;}
+//--------------------------------------------------------
+    public void setSala(Sala MiSala) {this.MiSala = MiSala;}
+
+
 //------------------------------------------------------
     public String getLetra() { return Letra;}
 //--------------------------------------------------------
